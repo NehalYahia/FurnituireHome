@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+$black:#000000;
+$gray:#CECECE;
+$red:#FF0000;
+$yellow:#FBB03B;
+$bg1:#81c4ff;
+$bg2:#FFC481;
+
+
+body{
+    position: relative;
+}
+
+.nav_bg{
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 215, 255, 0);
+    .navbar{
+
+        margin: 48px 160px;
+        
+        p{
+            font-size: 19px;
+        }
+    
+        li{
+            display: inline-block;
+            margin-left: 55px;
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+
+.header{
+    position: relative;
+
+    .main_h1{
+        position: absolute;
+        z-index: 3;
+        left: 362.82px;
+        top:282.48px;
+        color: white;
+
+        p{
+            font-size: 64px;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        a{
+            font-size: 13px;
+        }
+
+    }
+    
+    .carousel-inner{
+        position: relative;
+
+        .overlay{
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: black;
+            opacity: .25;
+        }
+    }
+
+    .carsoulControl{
+        width: 12%;
+        position: absolute;
+        top:80%;
+        left: 80%;
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 72px;
+            height:72px;
+            background-color: white;
+        }
+
+        .carousel-control-next{
+            opacity: 1;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+                background-image: none;
+                color: black;
+                
+        }
+
+      
+    }
+
+
+    .header_bottom{
+        width: 75%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 8;
+        border-top-right-radius: 100px;
+
+        
+
+        div >p i{
+            background-color:#E1ECFF;
+            color:#1A6EFF;
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+        .title{
+            font-size: 14px;
+        }
+
+        .details{
+            font-size: 12px;
+        }
+
+        .row{
+            margin-left: 15%;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+  
+.bg_RedefiningModernDesign{
+    background: $bg1;
+
+}
+
+.bg_NewCollection{
+    background: $bg2;
+}
+
+.bg_RedefiningModernDesign,
+.bg_NewCollection{
+    position: relative;
+
+    div{
+        position: absolute;
+        right: 0;
+        top: 20%;
+        width: 40%;
+
+        p{
+            font-size: 25px;
+        }
+
+        button{
+            font-size: 13px;
+        }
+
+    }
+}
+
+.AllSelectedItems{
+   > p{
+        font-size: 29px;
+        width: 84%;
+        display: inline-block;
+    }
+
+    button{
+        font-size: 13px;
+        border: 1px solid $gray;
+    }
+}
+
+
+.SelectedItem{
+    position: relative;
+    .img_bg{
+        background-color: $gray;
+
+        span{
+            background-color: $red;
+            position: absolute;
+            left:15px;
+            top:30px;
+
+        }
+    }
+    
+    .price{
+        color: $red;
+    }
+    .discount{
+        color:$gray ;
+    }
+}
+
+
+.Chooseus{
+    > p{
+        font-size: 29px;
+    }
+}
+
+
+.Features{
+    
+    .img_bg{
+        background-color: $gray;
+        width: 70px;
+        height: 70px;
+
+        img{
+            width: 34.27px;
+            height: 34.67px;
+        }
+    }
+
+    .img_bg:nth-child(2){
+        background-color: $bg1;
+    }
+
+    .details{
+        font-size: 13px;
+    }
+}
+
+.AllProducts{
+    > p{
+        font-size: 29px;
+    }
+
+    .img_bg{
+        background-color: $gray;
+    }
+}
+
+
+.Subscribe{
+    position: relative;
+    background-image:url("../src/images/apartment-clean-condominium-279719.png");
+    
+         p{
+            font-size: 29px;
+        }
+    
+
+    .overlay{
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        background-color: rgba(48, 49, 47, 0.31);
+    }
+}
+
+
+.footer{
+    li, .li{
+        font-size: 13px;
+    }
+
+}
