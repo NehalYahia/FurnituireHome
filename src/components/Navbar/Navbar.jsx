@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from "react-router-dom"
 import img from '../../images/noun_cloth_-1.png'
 // import '../../test.scss'
 
@@ -23,7 +24,9 @@ export default class Navbar extends Component {
                         <div className="col-4 p-0">
                             <ul type="none">
                                 <li><i class="fas fa-search"></i></li>
-                                <li><i class="fas fa-shopping-cart"></i></li>
+                               
+                                <li> <Link to="/ShoppingCartPage"><i class="fas fa-shopping-cart"></i>  </Link></li>
+                              
                                 <li><i class="far fa-user"></i></li>
                             </ul>
                         </div>

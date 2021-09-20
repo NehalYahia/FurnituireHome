@@ -1,0 +1,180 @@
+// @import "../scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+$Poppins: 'Poppins', sans-serif;
+$paddingSize:8%;
+$marginTop:5%;
+// .test
+// {
+//     color :$blue;
+// } 
+
+.navbar-brand
+{
+    padding-left: 2%;
+}
+.navFont
+{
+    font-family: $Poppins;
+}
+.logoStyle
+{
+    color: #fbb03b;
+}
+.LogoImageStyle
+{
+    padding-left: $paddingSize;
+}
+.navbar-collapse
+{
+  justify-self: center;
+}
+.headerStyle
+{
+    font-family: $Poppins;
+    font-weight: bolder;
+    padding-left: $paddingSize;
+    margin-top: $marginTop;
+}
+.headerStyle2
+{
+    padding-left: $paddingSize;
+    margin-top: 4%;
+}
+.iconStyle
+{
+    padding-top: 9%;
+}
+table
+{
+    width: 85%;
+    margin-left: 5%;
+    margin-top: 4%;
+    
+}
+.Amount{
+    border-color:lightgray;
+    width: 7rem;
+    padding: 4%;
+}
+// .col-md-1
+// {
+//     width: 1% !important;
+//     margin-left: 15%;
+// }
+.Promo
+{
+    border-color:lightgray;
+    width: 50%;
+    padding: 1%;
+}
+.PromoText
+{
+    color: lightgray;
+    font-family: $Poppins;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+.checkoutBtn
+{
+    background-color:#fbb03b ;
+    font-family: $Poppins;
+    border-color:#fbb03b ;
+    font-weight: bolder;
+}
+.footer
+{
+    width: 80%;
+}
+
+
+.nav-item{
+    padding: 0px 15px
+}
+
+.nav-link
+{
+    color: black !important;
+    font-family: $Poppins;
+    font-weight: bolder;
+    
+}
+.headerRow
+{
+    width: 140%;
+}
+.backBtn
+{
+   
+    padding-left: 15%;
+}
+.arrowStyle
+{
+    margin-right: 1%;
+}
+
+.rowStyle
+{
+    padding-top: 2%;
+}
+.tableCart
+{
+    width: 30%;
+}
+.deliveryOptn
+{
+    width: 100%;
+    padding: 1%;
+    font-family: $Poppins;
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.delivRow
+{
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.SignupoutBtn
+{
+    background-color:white ;
+    font-family: $Poppins;
+    border-color:lightgray ;
+    font-weight: bolder;
+}
+
+.checkoutRow
+{
+    width: 120%;
+    padding-left: 6%;
+    padding-top: 3%;
+}
+.inputFieldStyle
+{
+    border: none;
+border-color: transparent;
+width: 60%;
+}
+
+.PromocodeInputField
+{
+    border: none;
+    border-color: transparent;
+  
+}
+.totalCostStyle
+{
+    width: 40%;
+    background-color: lightgray;
+    font-family: $Poppins;
+}
+.priceStyle
+{
+    font-weight: bolder;
+}
+.LbuttonsStyle
+{
+   
+    margin-left: 30%;
+}
